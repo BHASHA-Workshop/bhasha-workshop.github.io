@@ -169,7 +169,7 @@ aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navi
 </header>
 <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-2 mb-xs-2 mb-sm-2">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 offset-xl-0 text-justify conference-text">
-<h3 class="text-danger text-center">IndicGEC 2025</h3>
+<h3 class="text-danger text-center">Task #1: IndicGEC 2025</h3>
 <h4 class="text-danger text-center">Shared Task on Grammatical Error Correction for Indian Languages</h4>
 <hr>
 <div class="card">
@@ -205,12 +205,36 @@ Generate the grammatically correct version of the input sentence, preserving the
 original intent and structure as much as possible. <i>(Sequence Generation)</i>
 </li>
 </ul>
-<hr>
+<hr/>
 <h6>Evaluation Metrics</h6>
 <ul>
 <li>Subtask 1: Macro-F1</li>
 <li>Subtask 2: Macro-F1</li>
 <li>Subtask 3: GLEU Score</li>
+</ul>
+</div>
+</div>
+
+<h3 class="text-danger text-center">Task #2: IndicWG 2025</h3>
+<h4 class="text-danger text-center">Shared Task on Word Group Identification in Indian Languages</h4>
+<hr>
+<div class="card">
+<div class="card-body">
+This shared task aims to introduce and regularize the concept of Word Grouping in Indian languages.
+Word grouping is a process wherein, given a plain text sentence in an Indian language,
+the task is to output a sequence of <b>word groups</b>, where each group represents a <b>semantically cohesive unit</b>.
+<hr/>
+<h6>Supervised Monolingual Word Group Identification</h6>
+The participants are expected to build models for word group identification within a single Indian language,
+using fully supervised data. Training and development data will be provided in a specific language (e.g., Hindi).
+Participants must predict semantically cohesive word groups on a held-out test set in the same language.
+Use of any approach -- rule-based, statistical, or neural models -- is allowed.
+Evaluation will focus on boundary-level matching and group-level correctness.
+This task serves as the foundational task to establish baselines for word grouping quality.
+<hr/>
+<h6>Evaluation Metrics</h6>
+<ul>
+<li>Exact Match F1-Score</li>
 </ul>
 </div>
 </div>
@@ -359,7 +383,7 @@ November 10, 2025
 &copy; BHASHA.
 </div>
 <div class="text-muted font-italic font-weight-light small pull-left pb-3">
-Last updated: July 30, 2025, 17:43:55.
+Last updated: August 14, 2025, 06:15:03.
 </div>
 </footer>
 </div>
